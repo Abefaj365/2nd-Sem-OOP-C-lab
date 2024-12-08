@@ -10,7 +10,8 @@ class course
 
 void course::result()
 {
-    cout<<"Chapters : "<<endl;
+   while(1>0){
+     cout<<"Chapters : "<<endl;
     cout<<"1.Principle of Object-Oriented Programming"<<endl;
     cout<<"2.Beginning with C++"<<endl;
     cout<<"3.Tokens, Expressions and Control Structures "<<endl;
@@ -152,6 +153,9 @@ void course::result()
                 
     }
     
+      cout<<endl;
+   }
+ 
 }
 
 main(){
